@@ -1,10 +1,13 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include "partials/head.php" ?>
-<?php include "database.php" ?>
+  <?php include "partials/head.php" ?>
+  <?php include "database/database.php" ?>
 
 <body class="hold-transition sidebar-mini">
-  <div class="wrapper">
+  <div class"wrapper>
     <?php include "partials/nav.php" ?>
     <?php include "partials/sidebar.php" ?>
     <div class="content-wrapper">
@@ -14,5 +17,4 @@
     <?php include "partials/footer.php" ?>
   </div>
 </body>
-
 </html>
